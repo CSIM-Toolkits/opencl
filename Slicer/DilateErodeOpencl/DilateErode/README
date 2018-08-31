@@ -1,0 +1,8 @@
+DILATE    Baseline.nnrd
+
+foreground 1054  radius 3
+
+
+DILATE    Panoramix-cropped.nnrd
+
+foreground 149  radius 4

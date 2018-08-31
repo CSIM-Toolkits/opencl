@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/build/DilateErode/DilateErodeCLP.h"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/DilateErode/DilateErode.cxx"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/build/DilateErode/DilateErodeCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "DilateErode" ],
+		"name" : "DilateErodeLib"
+	}
+}

@@ -1,0 +1,4 @@
+# Target labels
+ DilateErode
+# Source files and their labels
+/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/DilateErode/Testing/Cxx/DilateErodeTest.cxx

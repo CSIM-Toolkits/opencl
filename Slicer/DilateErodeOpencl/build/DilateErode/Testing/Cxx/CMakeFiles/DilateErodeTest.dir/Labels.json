@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/DilateErode/Testing/Cxx/DilateErodeTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "DilateErode" ],
+		"name" : "DilateErodeTest"
+	}
+}

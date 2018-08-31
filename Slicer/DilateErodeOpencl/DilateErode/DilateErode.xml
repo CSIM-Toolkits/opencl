@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+<category>OpenCL</category>
+<title>DilateErode</title>
+<description><![CDATA[This is a CLI module that can be bundled in an extension]]></description>
+<version>0.0.1</version>
+<documentation-url>http://www.example.com/Slicer/Modules/DilateErode</documentation-url>
+<license>Slicer</license>
+<contributor>FirstName LastName (Institution), FirstName LastName (Institution)</contributor>
+<acknowledgements>This work was partially funded by NIH grant NXNNXXNNNNNN-NNXN</acknowledgements>
+<parameters>
+<label>IO</label>
+<description><![CDATA[Input/output parameters]]></description>
+
+<image>
+<name>inputVolume</name>
+<label>Input Volume</label>
+<channel>input</channel>
+<index>0</index>
+<description><![CDATA[Input volume]]></description>
+</image>
+
+<image>
+<name>outputVolume</name>
+<label>Output Volume</label>
+<channel>output</channel>
+<index>1</index>
+<description><![CDATA[Output Volume]]></description>
+</image>
+
+<integer>
+<name>foreGround</name>
+<label>ForeGround</label>
+<longflag>--foreGround</longflag>
+<description>Select a pixel value foreground</description>
+<default>1.0</default>
+</integer>
+
+<integer>
+<name>backGround</name>
+<label>BackGround</label>
+<longflag>--backGround</longflag>
+<description>Select a pixel value for background (only erode filter)</description>
+<default>1.0</default>
+</integer>
+
+<integer>
+<name>radiusIn</name>
+<label>Radius</label>
+<longflag>--radiusIn</longflag>
+<description>Select a radius of kernel</description>
+<default>1.0</default>
+</integer>
+
+<boolean>
+<name>boundary</name>
+<label>Boundary To Foreground</label>
+<longflag>--boundary</longflag>
+<description>Boundary condition</description>
+<default>false</default>
+</boolean>
+
+<string-enumeration>
+      <name>deviceType</name>
+      <longflag>--devicetype</longflag>
+      <description>Select the type of device to run</description>
+      <label>Method Type</label>
+      <element>GPU</element>
+      <element>CPU</element>
+      <default>GPU</default>
+</string-enumeration>
+
+
+<string-enumeration>
+      <name>filterType</name>
+      <longflag>--filtertype</longflag>
+      <description>Select the type (dilate or erode)</description>
+      <label>Filter Type</label>
+      <element>Dilate</element>
+      <element>Erode</element>
+      <default>Dilate</default>
+</string-enumeration>
+
+</parameters>
+</executable>

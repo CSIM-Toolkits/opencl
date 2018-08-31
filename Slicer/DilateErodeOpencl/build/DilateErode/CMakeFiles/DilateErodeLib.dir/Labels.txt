@@ -1,0 +1,6 @@
+# Target labels
+ DilateErode
+# Source files and their labels
+/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/build/DilateErode/DilateErodeCLP.h
+/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/DilateErode/DilateErode.cxx
+/home/alexandrefreitas/Projetos/Slicer/DilateErodeOpencl/build/DilateErode/DilateErodeCLP.h.rule
