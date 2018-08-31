@@ -1,0 +1,4 @@
+# Target labels
+ AnisotropicClassic
+# Source files and their labels
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/AnisotropicClassic/Testing/Cxx/AnisotropicClassicTest.cxx

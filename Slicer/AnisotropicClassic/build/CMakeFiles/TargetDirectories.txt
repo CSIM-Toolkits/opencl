@@ -1,0 +1,8 @@
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/CMakeFiles/AnisotropicClassic.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/Nightly.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/NightlyUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/ExperimentalUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/Experimental.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/CMakeFiles/AnisotropicClassicLib.dir
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/ExperimentalUploadOnly.dir

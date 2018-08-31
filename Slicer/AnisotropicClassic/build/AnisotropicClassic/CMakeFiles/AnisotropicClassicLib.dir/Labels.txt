@@ -1,0 +1,6 @@
+# Target labels
+ AnisotropicClassic
+# Source files and their labels
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/AnisotropicClassicCLP.h
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/AnisotropicClassic/AnisotropicClassic.cxx
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/AnisotropicClassicCLP.h.rule

@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/AnisotropicClassic/Testing/Cxx/AnisotropicClassicTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AnisotropicClassic" ],
+		"name" : "AnisotropicClassicTest"
+	}
+}

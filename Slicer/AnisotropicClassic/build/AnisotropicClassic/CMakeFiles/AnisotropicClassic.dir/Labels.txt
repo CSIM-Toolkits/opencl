@@ -1,0 +1,4 @@
+# Target labels
+ AnisotropicClassic
+# Source files and their labels
+/home/alexandrefreitas/MestradoBibliotecas/Slicer/Slicer/Slicer-SuperBuild-Debug/Slicer-build/Base/CLI/SEMCommandLineLibraryWrapper.cxx

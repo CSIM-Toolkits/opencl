@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/AnisotropicClassicCLP.h"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/AnisotropicClassic/AnisotropicClassic.cxx"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/AnisotropicClassic/AnisotropicClassicCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AnisotropicClassic" ],
+		"name" : "AnisotropicClassicLib"
+	}
+}

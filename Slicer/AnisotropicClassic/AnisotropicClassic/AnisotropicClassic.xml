@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+<category>OpenCL</category>
+<title>AnisotropicClassic</title>
+<description><![CDATA[This is a CLI module that can be bundled in an extension]]></description>
+<version>0.0.1</version>
+<documentation-url>http://www.example.com/Slicer/Modules/AnisotropicClassic</documentation-url>
+<license>Slicer</license>
+<contributor>FirstName LastName (Institution), FirstName LastName (Institution)</contributor>
+<acknowledgements>This work was partially funded by NIH grant NXNNXXNNNNNN-NNXN</acknowledgements>
+<parameters>
+<label>IO</label>
+<description><![CDATA[Input/output parameters]]></description>
+<image>
+<name>inputVolume</name>
+<label>Input Volume</label>
+<channel>input</channel>
+<index>0</index>
+<description><![CDATA[Input volume]]></description>
+</image>
+<image>
+<name>outputVolume</name>
+<label>Output Volume</label>
+<channel>output</channel>
+<index>1</index>
+<description><![CDATA[Output Volume]]></description>
+</image>
+
+<string-enumeration>
+<name>deviceType</name>
+<longflag>--devicetype</longflag>
+<description>Select the type of device to run</description>
+<label>Method Type</label>
+<element>GPU</element>
+<element>CPU ITK</element>
+<element>CPU PROCEDURAL</element>
+<default>GPU</default>
+</string-enumeration>
+
+    <integer>
+    <name>numInterationInput</name>
+    <label>Num. Interation</label>
+    <longflag>--numInteration</longflag>
+    <description>Select the number of interations</description>
+    <default>1</default>
+    </integer>
+
+    <float>
+    <name>kappaInput</name>
+    <label>Coef. Kappa</label>
+    <longflag>--kappa</longflag>
+    <description>Select the value of coef. Kappa</description>
+    <default>15.0</default>
+    </float>
+
+    <float>
+    <name>deltaInput</name>
+    <label>Coef. Delta</label>
+    <longflag>--delta</longflag>
+    <description>Select the value of Delta</description>
+    <default>0.125</default>
+    </float>
+
+  </parameters>
+  </executable>

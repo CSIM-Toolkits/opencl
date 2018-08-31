@@ -1,0 +1,152 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3987757045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3987757045.dir/build.make CMakeFiles/cmTryCompileExec3987757045.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3987757045.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec3987757045.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec3987757045.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec3987757045/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3275603530/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3275603530.dir/build.make CMakeFiles/cmTryCompileExec3275603530.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3275603530.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec3275603530.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec3275603530.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec3275603530/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1534167111/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1534167111.dir/build.make CMakeFiles/cmTryCompileExec1534167111.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1534167111.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec1534167111.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec1534167111.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec1534167111/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec446708251/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec446708251.dir/build.make CMakeFiles/cmTryCompileExec446708251.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec446708251.dir/src.cxx.o
+/usr/bin/c++    -Wno-array-bounds   -ftemplate-depth-50 -fno-tree-vectorize -features=no%anachronisms   -o CMakeFiles/cmTryCompileExec446708251.dir/src.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-features=no%anachronisms’
+make[1]: ** [CMakeFiles/cmTryCompileExec446708251.dir/src.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec446708251/fast] Erro 2
+
+Source file was:
+int main() { return 0;}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec386107122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec386107122.dir/build.make CMakeFiles/cmTryCompileExec386107122.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec386107122.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wpointer-arith -Winvalid-pch -Wcast-align -Wwrite-strings -D_FORTIFY_SOURCE=2 -fdiagnostics-show-option -Wl,--no-undefined -fstack-protector-all   -Wall -Wno-uninitialized -Wno-unused-parameter    -I/opt/AMDAPPSDK-2.9-1/include    -o CMakeFiles/cmTryCompileExec386107122.dir/CheckSymbolExists.c.o   -c /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_0’ undeclared (first use in this function)
+   return ((int*)(&CL_VERSION_2_0))[argc];
+                   ^
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make[1]: ** [CMakeFiles/cmTryCompileExec386107122.dir/CheckSymbolExists.c.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec386107122/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/AnisotropicClassic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </opt/AMDAPPSDK-2.9-1/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,15 @@
+Sempre dar Clean antes de dar o build.
+Após exibir o resultado da imagem, acertar o 'DISPLAY PRESET' da  
+
+BaselineVolume.nnrd
+
+Iteration = 10
+Kappa = 60
+Delta = 0.025
+
+
+
+Filtro anisotróipico nao possui um bom resultado para várias iterações, pois cria dependência de dados, e exige sincronização de execução do kernel em cada iteração, gastando tempo nesta operação.
+
+ O paradigma OpenCL é uma computação paralela de dados onde os grupos de trabalho são destinados a serem executados de forma independentes.
+
