@@ -1,0 +1,8 @@
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/MeanFilter/CMakeFiles/MeanFilterLib.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/Nightly.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/NightlyUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/MeanFilter/CMakeFiles/MeanFilter.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/ExperimentalUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/Experimental.dir
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/ExperimentalUploadOnly.dir

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>OpenCL</category>
+  <title>MeanFilter</title>
+  <description><![CDATA[This is a CLI module that can be bundled in an extension]]></description>
+  <version>0.0.1</version>
+  <documentation-url>http://www.example.com/Slicer/Modules/MeanFilter</documentation-url>
+  <license>Slicer</license>
+  <contributor>FirstName LastName (Institution), FirstName LastName (Institution)</contributor>
+  <acknowledgements>This work was partially funded by NIH grant NXNNXXNNNNNN-NNXN</acknowledgements>
+  <parameters>
+    <label>IO Mean Filter</label>
+    <description><![CDATA[Input/output parameters]]></description>
+
+    <image>
+      <name>inputVolume</name>
+      <label>Input Volume</label>
+      <channel>input</channel>
+      <index>0</index>
+      <description><![CDATA[Input volume]]></description>
+    </image>
+    <image>
+      <name>outputVolume</name>
+      <label>Output Volume</label>
+      <channel>output</channel>
+      <index>1</index>
+      <description><![CDATA[Output Volume]]></description>
+    </image>
+
+    <string-enumeration>
+          <name>deviceType</name>
+          <longflag>--devicetype</longflag>
+          <description>Select the type of device to run</description>
+          <label>Method Type</label>
+          <element>GPU</element>
+          <element>CPU</element>
+          <default>GPU</default>
+      </string-enumeration>
+
+      <integer>
+      <name>meanRadius</name>
+      <longflag>--radiusIn</longflag>
+      <label>Size of Mask </label>
+      <description>Select a radius of mean filter</description>
+      <default>1.0</default>
+      </integer>
+
+
+  </parameters>
+</executable>

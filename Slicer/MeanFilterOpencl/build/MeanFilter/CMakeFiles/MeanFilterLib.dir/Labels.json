@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/MeanFilter/MeanFilterCLP.h"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/MeanFilter/MeanFilter.cxx"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/MeanFilter/MeanFilterCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MeanFilter" ],
+		"name" : "MeanFilterLib"
+	}
+}

@@ -1,0 +1,113 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2734445086/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2734445086.dir/build.make CMakeFiles/cmTryCompileExec2734445086.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2734445086.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec2734445086.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec2734445086.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec2734445086/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2670831276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2670831276.dir/build.make CMakeFiles/cmTryCompileExec2670831276.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2670831276.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec2670831276.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec2670831276.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec2670831276/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec742658399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec742658399.dir/build.make CMakeFiles/cmTryCompileExec742658399.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec742658399.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/Support/qt-everywhere-opensource-release-build-4.8.5/include    -o CMakeFiles/cmTryCompileExec742658399.dir/CheckSymbolExists.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: ** [CMakeFiles/cmTryCompileExec742658399.dir/CheckSymbolExists.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec742658399/fast] Erro 2
+
+File /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1011605099/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1011605099.dir/build.make CMakeFiles/cmTryCompileExec1011605099.dir/build
+make[1]: Entrando no diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1011605099.dir/src.cxx.o
+/usr/bin/c++    -Wno-array-bounds   -ftemplate-depth-50 -fno-tree-vectorize -features=no%anachronisms   -o CMakeFiles/cmTryCompileExec1011605099.dir/src.cxx.o -c /home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-features=no%anachronisms’
+make[1]: ** [CMakeFiles/cmTryCompileExec1011605099.dir/src.cxx.o] Erro 1
+make[1]: Saindo do diretório `/home/alexandrefreitas/Projetos/Slicer/MeanFilterOpencl/build/CMakeFiles/CMakeTmp'
+make: ** [cmTryCompileExec1011605099/fast] Erro 2
+
+Source file was:
+int main() { return 0;}
+
