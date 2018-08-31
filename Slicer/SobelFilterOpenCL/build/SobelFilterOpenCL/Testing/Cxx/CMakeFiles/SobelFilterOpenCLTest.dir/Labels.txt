@@ -1,0 +1,4 @@
+# Target labels
+ SobelFilterOpenCL
+# Source files and their labels
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/SobelFilterOpenCL/Testing/Cxx/SobelFilterOpenCLTest.cxx

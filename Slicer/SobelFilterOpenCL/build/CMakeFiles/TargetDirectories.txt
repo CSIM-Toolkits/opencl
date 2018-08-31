@@ -1,0 +1,8 @@
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/Nightly.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/NightlyUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/SobelFilterOpenCL/CMakeFiles/SobelFilterOpenCL.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/SobelFilterOpenCL/CMakeFiles/SobelFilterOpenCLLib.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/ExperimentalUpload.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/Experimental.dir
+/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/CMakeFiles/ExperimentalUploadOnly.dir

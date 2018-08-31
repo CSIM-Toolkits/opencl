@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/SobelFilterOpenCL/Testing/Cxx/SobelFilterOpenCLTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "SobelFilterOpenCL" ],
+		"name" : "SobelFilterOpenCLTest"
+	}
+}

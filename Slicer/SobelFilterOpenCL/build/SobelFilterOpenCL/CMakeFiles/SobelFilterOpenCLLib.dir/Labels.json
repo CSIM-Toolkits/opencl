@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/SobelFilterOpenCL/SobelFilterOpenCLCLP.h"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/SobelFilterOpenCL/SobelFilterOpenCL.cxx"
+		},
+		
+		{
+			"file" : "/home/alexandrefreitas/Projetos/Slicer/SobelFilterOpenCL/build/SobelFilterOpenCL/SobelFilterOpenCLCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "SobelFilterOpenCL" ],
+		"name" : "SobelFilterOpenCLLib"
+	}
+}
