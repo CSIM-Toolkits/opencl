@@ -1,0 +1,10 @@
+
+
+O objeto de imagem dentro do kernel no opencl, a imagem é representada por canais de componentes  (x,y,z,w) => RGBA
+
+Para uma imagem grayscale, apenas é necessário alterar o canal X (Red).
+
+
+
+
+
